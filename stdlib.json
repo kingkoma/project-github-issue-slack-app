@@ -1,0 +1,56 @@
+{
+  "name": "steve/issue-bot",
+  "timeout": 20000,
+  "version": "0.0.0",
+  "build": "faaslang",
+  "events": [
+    {
+      "slack.command": {
+        "filename": "events/slack/command/add_user.js",
+        "subtype": {
+          "command": "add_user"
+        }
+      }
+    },
+    {
+      "slack.interactive_message": {
+        "filename": "events/slack/interactive_message/add_assignee.js",
+        "subtype": {
+          "callback_id": "add_assignee"
+        }
+      }
+    },
+    {
+      "github.issues": {
+        "filename": "events/github/issues/opened.js",
+        "subtype": {
+          "action": "opened"
+        }
+      }
+    },
+    {
+      "github.issues": {
+        "filename": "events/github/issues/closed.js",
+        "subtype": {
+          "action": "closed"
+        }
+      }
+    },
+    {
+      "github.issues": {
+        "filename": "events/github/issues/assigned.js",
+        "subtype": {
+          "action": "assigned"
+        }
+      }
+    },
+    {
+      "github.issues": {
+        "filename": "events/github/issues/unassigned.js",
+        "subtype": {
+          "action": "unassigned"
+        }
+      }
+    }
+  ]
+}
