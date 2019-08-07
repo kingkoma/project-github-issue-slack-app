@@ -3,6 +3,8 @@
 This is a Slack + GitHub + Airtable Application, written in Node.js,
 on [Standard Library](https://stdlib.com), that helps you manage issues on GitHub. It sends a message to Slack when a new issue is opened on GitHub. The message will let you add/remove assignees of the issue.
 
+![](./readme/images/message.png)
+
 ## Deploying this Application
 
 You can deploy this Slack App to [Standard Library](https://stdlib.com) by clicking this button:
