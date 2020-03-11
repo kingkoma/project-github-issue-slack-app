@@ -1,5 +1,7 @@
 # GitHub Issues Bot
 
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
+
 This is a Slack + GitHub + Airtable Application, written in Node.js,
 on [Standard Library](https://stdlib.com), that helps you manage issues on GitHub. It sends a message to Slack when a new issue is opened on GitHub. The message will let you add/remove assignees of the issue.
 
@@ -9,7 +11,7 @@ on [Standard Library](https://stdlib.com), that helps you manage issues on GitHu
 
 You can deploy this Slack App to [Standard Library](https://stdlib.com) by clicking this button:
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
 
 You'll be asked to log in and be brought to a screen that looks something like this:
 
